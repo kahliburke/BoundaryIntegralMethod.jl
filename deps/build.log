@@ -1,0 +1,31 @@
+Collecting package metadata: ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /Users/kburke/.julia/conda/3
+
+  added / updated specs:
+    - scipy
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    scipy-1.2.1                |   py37h1410ff5_0        15.6 MB
+    ------------------------------------------------------------
+                                           Total:        15.6 MB
+
+The following packages will be UPDATED:
+
+  scipy                                1.2.0-py37h1410ff5_0 --> 1.2.1-py37h1410ff5_0
+
+
+
+Downloading and Extracting Packages
+scipy-1.2.1          | 15.6 MB   |            |   0% scipy-1.2.1          | 15.6 MB   |            |   0% scipy-1.2.1          | 15.6 MB   |            |   0% scipy-1.2.1          | 15.6 MB   | 1          |   1% scipy-1.2.1          | 15.6 MB   | 3          |   3% scipy-1.2.1          | 15.6 MB   | 4          |   5% scipy-1.2.1          | 15.6 MB   | 6          |   6% scipy-1.2.1          | 15.6 MB   | 7          |   8% scipy-1.2.1          | 15.6 MB   | 9          |   9% scipy-1.2.1          | 15.6 MB   | #1         |  12% scipy-1.2.1          | 15.6 MB   | ##1        |  22% scipy-1.2.1          | 15.6 MB   | ###9       |  39% scipy-1.2.1          | 15.6 MB   | #####2     |  52% scipy-1.2.1          | 15.6 MB   | ######2    |  63% scipy-1.2.1          | 15.6 MB   | #######4   |  74% scipy-1.2.1          | 15.6 MB   | ########4  |  84% scipy-1.2.1          | 15.6 MB   | #########1 |  92% scipy-1.2.1          | 15.6 MB   | #########7 |  97% scipy-1.2.1          | 15.6 MB   | ########## | 100% 
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+[ Info: Running `conda install -y scipy` in root environment

@@ -1,0 +1,25 @@
+name = "BoundaryIntegralMethod"
+uuid = "e5d170aa-24fc-11e9-3a9a-211c3c27c42c"
+authors = ["Kahli Burke <kahli@uoregon.edu>"]
+version = "1.0.0"
+
+[deps]
+ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
+Conda = "8f4d0f93-b110-5947-807f-2305c1781a2d"
+Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
+DistributedArrays = "aaf54ef3-cdf8-58ed-94cc-d582ad619b94"
+DocOpt = "968ba79b-81e4-546f-ab3a-2eecfa62a9db"
+IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
+JLD = "4138dd39-2aa7-5051-a626-17a0bb65d9c8"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
