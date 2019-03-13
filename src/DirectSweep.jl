@@ -19,7 +19,7 @@ function directSweep(b::Boundary, n::Int, k0::Complex)
   Apr = A′(b, n, k0, bpc0)
   try
     @info "Solving generalized eigenvalue problem"
-    (vals, vecs) = linalg[:eig](-A0, Apr)
+    (vals, vecs) = linalg.eig(-A0, Apr)
     #TODO: Investigate performance of built in eigensolver
     # aEigen = eigen(-A0, Apr)
     # vals = aEigen.values
