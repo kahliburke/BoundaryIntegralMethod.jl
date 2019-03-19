@@ -28,7 +28,7 @@ function followResonance(k0, b0, changeFn, steps; convergence = 1e-6, n=200, out
       ks = ks[1:6]
       # Try closest resonance
       @debug ks
-      p = sortperm(abs.(imag.(ks)-imag(k)))
+      p = sortperm(abs.(imag.(ks).-imag(k)))
       @info "Choosing from ks:"
       [@info "$i: $(ks[i])" for i in 1:length(ks)]
       # candidateK = ks[p[1]]
